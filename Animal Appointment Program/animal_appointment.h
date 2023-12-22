@@ -40,12 +40,12 @@ class appointment
 		bool operator!= (const appointment& ) const;
 		bool operator< (const appointment& ) const;
 		bool operator< (const string name) const;
-        bool operator<= (const appointment& ) const;
-        bool operator<= (const string name) const;
-        bool operator>= (const appointment& ) const;
-        bool operator>= (const string name) const;
-        bool operator> (const appointment& ) const;
-        bool operator> (const string name ) const;
+        	bool operator<= (const appointment& ) const;
+        	bool operator<= (const string name) const;
+        	bool operator>= (const appointment& ) const;
+        	bool operator>= (const string name) const;
+        	bool operator> (const appointment& ) const;
+        	bool operator> (const string name ) const;
 		int find_a_match(string input_name);
 	protected:
 		string animal_name;
